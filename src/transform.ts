@@ -81,6 +81,7 @@ export const transform = async (
   const replacements = removeDisabled([
     [transforms.fastCurriedFns, '/../replacements/faster-function-wrappers'],
     [transforms.replaceListFunctions, '/../replacements/list'],
+    [transforms.replaceSetFunctions, '/../replacements/set'],
     [transforms.replaceStringFunctions, '/../replacements/string'],
   ]);
 
