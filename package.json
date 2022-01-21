@@ -1,7 +1,7 @@
 {
-  "name": "elm-optimize-level-2",
-  "description": "A second level of optimization for the Javascript that the Elm Compiler produces.",
-  "version": "0.2.3",
+  "name": "elm-gobrrrrr",
+  "description": "Cherry-pick of @jfmengels patches for elm-optimize-level-2",
+  "version": "0.1.0",
   "license": "BSD-3-Clause",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,7 +26,6 @@
     "prepare": "tsc -p tsconfig.json && npm run copy-replacements",
     "lvl-2": "ts-node -T src/index.ts",
     "run": "ts-node -T src/index.ts testcases/core/Main.elm",
-    "run-benchmarks": "ts-node -T src/benchmark/run.ts",
     "copy-replacements": "copyfiles -u 2 src/replacements/**/* dist/replacements"
   },
   "husky": {
